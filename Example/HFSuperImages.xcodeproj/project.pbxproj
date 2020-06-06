@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7BAE90E08795B918DD0413D2 /* Pods_HFSuperImages_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38917A2173E05A273F274E81 /* Pods_HFSuperImages_Example.framework */; };
+		8F321BCF248C3F070040F350 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		B3A311F446E5F39FDBCDEEF8 /* Pods_HFSuperImages_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07ACB8655C0B9C4AD09723B /* Pods_HFSuperImages_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +46,7 @@
 		6353AA680F749315A82F22CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7BE0697C6875FC79DCBCF2E0 /* Pods-HFSuperImages_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFSuperImages_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HFSuperImages_Tests/Pods-HFSuperImages_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D206706FA7A259680D8E341 /* Pods-HFSuperImages_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFSuperImages_Example.release.xcconfig"; path = "Target Support Files/Pods-HFSuperImages_Example/Pods-HFSuperImages_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AADE1443847D3EA96F7CAEC0 /* HFSuperImages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HFSuperImages.podspec; path = ../HFSuperImages.podspec; sourceTree = "<group>"; };
+		AADE1443847D3EA96F7CAEC0 /* HFSuperImages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HFSuperImages.podspec; path = ../HFSuperImages.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E07ACB8655C0B9C4AD09723B /* Pods_HFSuperImages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HFSuperImages_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -339,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F321BCF248C3F070040F350 /* ViewController.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
