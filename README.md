@@ -27,3 +27,14 @@ lamhot, lamhotjms@gmail.com
 ## License
 
 HFSuperImages is available under the MIT license. See the LICENSE file for more info.
+
+## Notes
+```
+sudo gem install cocoapods
+pod lib create HFSuperImages
+pod lib lint HFSuperImages.podspec
+echo "4.0" >> .swift_version
+pod trunk register lamhotjms@gmail.com 'lamhotjm' --description='MacBook Pro'
+pod trunk push HFSuperImages.podspec
+Run the unit test command + u
+```
